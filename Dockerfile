@@ -8,7 +8,8 @@ RUN apk update && apk add \
     icu \
     icu-dev \
     libintl \
-    git
+    git \
+    openssh-client
 RUN docker-php-ext-install \
     intl \
     bcmath \
