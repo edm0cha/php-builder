@@ -1,4 +1,4 @@
-FROM php:8.0.3-fpm-alpine
+FROM php:8.1-fpm-alpine
 MAINTAINER Edwin Moedano "edwinmoedano@gmail.com"
 
 RUN apk update && apk add \
